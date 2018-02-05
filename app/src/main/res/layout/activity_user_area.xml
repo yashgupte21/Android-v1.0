@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.myapplication.UserAreaActivity">
+
+    <TextView
+        android:id="@+id/tvWelcomeMsg"
+        android:layout_width="97dp"
+        android:layout_height="34dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/etContactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
+</android.support.constraint.ConstraintLayout>

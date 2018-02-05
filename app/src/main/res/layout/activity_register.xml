@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.myapplication.RegisterActivity">
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fullname"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/etContactNo"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contactno"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:text="Register" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="341dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="157dp" />
+</android.support.constraint.ConstraintLayout>

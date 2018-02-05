@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.yash.myapplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:text="E-waste User Login"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/tvRegisterHere"
+        android:layout_width="98dp"
+        android:layout_height="29dp"
+        android:text="Register Here"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+</android.support.constraint.ConstraintLayout>
